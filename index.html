@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>To Do List</title>
+</head>
+
+<body>
+    <div class="header">
+        <nav>
+            <div class="theme-switch-wrapper">
+              <label class="theme-switch" for="checkbox">
+                <input type="checkbox" id="checkbox" />
+                <div class="slider round"></div>
+              </label>
+              <em>Enable Dark Mode!</em>
+            </div>
+          </nav>
+        <h1 class="whitemepls">Type it Then Do it</h1>
+        <div class="container">
+            <input class="input" id="inputField" type="text" placeholder="Create a ToDo"><button id="addToDo"><img class="img1" src="plus-circle1.png" hight="38px" width="38px"> </button>
+        </div>
+        <div class="to-dos" id="toDoContainer">
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
